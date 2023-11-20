@@ -43,50 +43,159 @@ a:hover {
 
 
 .banner {
+    background-color: #9E2A2B;
+    height: 110px;
     max-width: 100%;
-    height: 430px;
-    background-image: url("imagens/imgbanner.jpg");
-    background-repeat: round;
-    opacity: 0.5;
-    margin-top: 40px;
 }
 
-/*
-.faixabanner {
-    background-color: #9E2A2B;
-    max-width: 100%;
-    height: 300px;
-    opacity: 1;
-}
-*/
 
 
 .titulobanner {
     color: #FFF;
     font-family: Nerko One, Arial;
-    font-size: 100px;
+    font-size: 80px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    max-width: 55%;
+    max-width: 100%;
     margin-left: 80px;
-    padding-top: 37px;
     text-align: center;
     margin: 0 auto;
     }
 
-.paragrafobanner {
-    color: #FFF;
+
+.produtos {
+    background-color: #DB7C26;
+    width: 350px;
+    height: 480px;
+    border-radius: 30px;
+    margin-top: 40px;
+    margin-left: 115px;
+    margin-bottom: 60px;
+    display: inline-block;
+}
+
+img {
+    margin-top: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 280px;
+    height: 250px;
+    border: 15px solid #E9E9E9;
+}
+
+.tituloprodutos {
+    color: #000;
     font-family: Josefin Sans, Arial;
-    font-size: 17px;
+    font-size: 20px;
+    padding-left: 26px;
+    margin: 10px 0px;
+}
+
+.precoprodutos {
+    color: #000;
+    font-family: Josefin Sans, Arial;
+    font-size: 20px;
+    font-style: italic;
+    padding-left: 26px;
+    margin: 10px 0px;
+}
+
+.qtd {
+    color: #000;
+    font-family: Josefin Sans, Arial;
+    font-size: 20px;
     font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    max-width: 377px;
-    margin-left: 80px;
-    text-transform: uppercase;
-    text-align: center;
-    margin: 0 auto;
+    padding-left: 26px;
+    margin: 10px 2px;
 }
 
 
+button {
+    color: #000;
+    font-family: Josefin Sans, Arial;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    margin-left: 26px;
+}
+
+
+footer {
+    background-color: #E7E7E7;
+    height: 80px;
+    width: 100%;
+}
+
+footer p {
+    color: #9E2A2B;
+    font-family: Josefin Sans, Arial;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-align: center;
+    padding: 30px;
+    }
+
+
+.caixasobrenos {
+    border-radius: 30px;
+    background-color: #DB7C26;
+    width: 600px;
+    height: 350px;
+    margin-left: 90px;
+    margin-bottom: 60px;
+}
+
+.caixasobrenos h1 {
+    color: #FFF;
+    font-family: Nerko One, Arial;
+    font-size: 135px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 40px;
+    width: 562px;
+    height: 248px;
+}
+
+#textosobrenos {
+    display: inline-block;
+    color: #9E2A2B;
+    font-family: Josefin Sans, Arial;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    height: 600px;
+    width: 400px;
+    }
+
+
+.areacarrinho {
+  
+    max-width: 100%;
+    height: 1000px;
+    margin: auto;
+    text-align: center;
+}
+
+.textocarrinho {
+    color: #000;
+    font-family: Josefin Sans, Arial;
+    font-size: 30px;
+    padding-top: 20px;
+    margin-bottom: 40px;
+}
+
+#itens {
+    color: #000;
+    font-family: Josefin Sans, Arial;
+    font-size: 20px;
+    padding-top: 70px;
+    max-width: 700px;
+    margin: auto;
+    margin-bottom: 40px;
+}

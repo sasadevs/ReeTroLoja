@@ -19,40 +19,170 @@
 <body>
 
     <article>
-    <header>
-       ReeTro
-    </header>
+        <header>
+            ReeTro
+        </header>
 
-    <nav>
-        <a href="index.html">home </a>| <a href="carrinho.html">seu carrinho</a> | <a href="sobrenos.html">sobre nós</a>
-    </nav>
+        <nav>
+            <a href="index.html">home </a>| <a href="carrinho.html">seu carrinho</a> | <a href="sobrenos.html">sobre
+                nós</a>
+        </nav>
 
-    <section class="banner">
+        <section class="banner">
+            <div>
 
-    <div class="faixabanner">
+                <div class="titulobanner">
 
-    <div>
+                    A sua loja vintage favorita!
 
-        <div class="titulobanner">
+                </div>
 
-            A sua loja vintage favorita!
+            </div>
 
-        </div>
+        </section>
 
-        <div class="paragrafobanner">
-            <p>Produtos com a melhor curadoria do Brasil, para a melhor experiência com a nostalgia!
-            </p>
-        </div>
+        <!-- produtos -->
 
-        <div>
-            
-        </div>
 
-    </div>
+        <section>
 
-    </section>
+
+            <div class="produtos">
+
+                <img src="imagens/camera-analogica.png">
+
+                <div class="tituloprodutos">
+                    Camera fujifilm smartshot 20 - Analógica
+                </div>
+
+                <div class="precoprodutos">
+                    R$80,00
+                </div>
+
+                <div class="qtd">
+                qtd: <input type="number" value="1" min="1" max="10" id="qtd1"> </div>
+                <button type="button" id="adicionar1" id="produto1"
+                    onclick="AddCarrinho('Camera fujifilm smartshot 20 - Analógica', document.getElementById('qtd1').value, '80.00', 1)"  class="button">Adicionar ao
+                    carrinho</button>
+
+            </div>
+
+
+            <div class="produtos">
+
+                <img src="imagens/azulejos.png">
+
+                <div class="tituloprodutos">
+                    Azulejos Decorativos 18 Peças 15x15cm Vintage Área Gourmet
+                </div>
+
+                <div class="precoprodutos">
+                    R$150,00
+                </div>
+
+
+                <div class="qtd">
+                    qtd: <input type="number" value="1" min="1" max="10" id="qtd2"> </div>
+                <button type="button" id="adicionar2" id="produto2"
+                    onclick="AddCarrinho('Azulejos Decorativos 18 Peças 15x15cm Vintage Área Gourmet', document.getElementById('qtd2').value, '150.00', 2)"  class="button">Adicionar ao carrinho</button>
+
+            </div>
+
+
+            <div class="produtos">
+
+                <img src="imagens/jogo.png">
+
+                <div class="tituloprodutos">
+                    Jogo Resta Um 1 Raciocinio lógico 20cm Rústico
+                </div>
+
+                <div class="precoprodutos">
+                    R$60,00
+                </div>
+
+
+                <div class="qtd">
+                    qtd: <input type="number" value="1" min="1" max="10" id="qtd3"> </div>
+                <button type="button" id="adicionar3" id="produto3"
+                    onclick="AddCarrinho('Jogo Resta Um 1 Raciocinio lógico 20cm Rústico', document.getElementById('qtd3').value, '60.00', 3)"  class="button">Adicionar ao carrinho</button>
+
+            </div>
+
+
+            <div class="produtos">
+
+                <img src="imagens/oculos.png">
+
+                <div class="tituloprodutos">
+                    Óculos Sol Redondo Circular Vintage
+                </div>
+
+                <div class="precoprodutos">
+                    R$45,00
+                </div>
+
+
+                <div class="qtd">
+                    qtd: <input type="number" value="1" min="1" max="10" id="qtd4"> </div>
+                <button type="button" id="adicionar4" id="produto4"
+                    onclick="AddCarrinho('Óculos Sol Redondo Circular Vintage', document.getElementById('qtd4').value, '45.00', 4)"  class="button">Adicionar ao carrinho</button>
+
+            </div>
+
+
+            <div class="produtos">
+
+                <img src="imagens/maquina.png">
+
+                <div class="tituloprodutos">
+                    Máquina de escrever Olivetti Colegge
+                </div>
+
+                <div class="precoprodutos">
+                    R$200,00
+                </div>
+
+
+
+                <div class="qtd">
+                    qtd: <input type="number" value="1" min="1" max="10" id="qtd5"> </div>
+                <button type="button" id="adicionar5" id="produto5"
+                    onclick="AddCarrinho('Máquina de escrever Olivetti Colegge', document.getElementById('qtd5').value, '200.00', 5)"  class="button">Adicionar ao carrinho</button>
+
+            </div>
+
+
+            <div class="produtos">
+
+                <img src="imagens/telefone.png">
+
+                <div class="tituloprodutos">
+                    Telefone De Disco Ericsson Verde
+                </div>
+                <div class="precoprodutos">
+                    R$120,00
+                </div>
+
+
+                <div class="qtd">
+                    qtd: <input type="number" value="1" min="1" max="10" id="qtd6"> </div>
+                <button type="button" id="adicionar6" id="produto6"
+                    onclick="AddCarrinho('Telefone De Disco Ericsson Verde', document.getElementById('qtd6').value, '120.00', 6)"  class="button">Adicionar ao carrinho</button>
+
+            </div>
+
+
+        </section>
+
+
+        <footer>
+            <p>Todos os direitos reservados</p>
+        </footer>
 
     </article>
+
+    <script src="js/js1.js"></script>
 
 </body>
 
